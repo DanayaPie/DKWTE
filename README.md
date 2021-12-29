@@ -18,8 +18,6 @@ Don’t Know What To Eat is a web application that randomly selects a restaurant
 - Log4J
 - PostgreSQL
 - SQL
-- AWS
-- EC2
 - Angular
 - HTML
 - CSS
