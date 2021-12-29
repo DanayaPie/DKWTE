@@ -9,7 +9,7 @@ Don’t Know What To Eat is a web application that randomly selects a restaurant
 ## Technologies Used
 
 - Java
-- Spring Framework
+- Spring Framework (AOP, ORM)
 - Spring MVC
 - Hibernate
 - AJAX
@@ -49,22 +49,20 @@ http://ec2-3-138-126-45.us-east-2.compute.amazonaws.com:5050/ -->
 
 <!-- **Local Application:** -->
 
-<!-- _Backend:_ -->
+_Backend:_
 
 1. Be sure to have the Java 8 runtime environment installed.
-2. Clone the repository:
-
-`https://github.com/DanayaPie/DKWTE-Backend.git`
-
+2. Clone the repository: `https://github.com/DanayaPie/DKWTE-Backend.git`
 3. Set the runtime environment:
-   - Application: in the src/main/resources package - Set up the runtime enviroment in the _'application.properties'_
-   <!-- - Testing: in the src/test/resources package
-       - *'application.properties'*  -->
+   - Application: in the src/main/resources package 
+         Set up the runtime enviroment in the _'application.properties'_
+   - Testing: in the src/test/resources package
+         Set up runtime enviroment in the *'application.properties'* 
 4. Set up the database:
    - Application: in the src/main/resources package
-     - Change the **_hibernate.ddl-auto_** in the _'application.properties'_ to create, validate, update
+         Change the **_hibernate.ddl-auto_** in the _'application.properties'_ to create, validate, update as needed.
    - SQL:
-     - Create a schema name **dwte**
+         Create a schema name **dwte**
 
 <!-- _Frontend:_
 
