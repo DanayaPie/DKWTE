@@ -52,21 +52,19 @@ http://ec2-3-138-126-45.us-east-2.compute.amazonaws.com:5050/ -->
 _Backend:_
 
 1. Be sure to have the Java 8 runtime environment installed.
-2. Clone the repository: `https://github.com/DanayaPie/DKWTE-Backend.git`
+2. Clone the backend repository: ```https://github.com/DanayaPie/DKWTE.git```
 3. Set the runtime environment:
-   - Application: in the src/main/resources package 
-         Set up the runtime enviroment in the _'application.properties'_
-   - Testing: in the src/test/resources package
-         Set up runtime enviroment in the *'application.properties'* 
-4. Set up the database:
-   - Application: in the src/main/resources package
-         Change the **_hibernate.ddl-auto_** in the _'application.properties'_ to create, validate, update as needed.
-   - SQL:
-         Create a schema name **dwte**
+   - Application: in the **src/main/resources** package: Set up the runtime enviroment in the _'application.properties'_.
+   - Testing: in the **src/test/resources** package: Set up runtime enviroment in the *'application.properties'*.
+4. Set up the database: for application and testing
+   - (4.1) Application: in the **src/main/resources** package: Change the **_hibernate.ddl-auto_** in the _'application.properties'_ to create, validate, update as needed to create, or manage the database.
+   - (4.2) SQL: Create a schema name **dwte**
 
-<!-- _Frontend:_
+_Frontend:_
 
-1. Set up the angular project. -->
+1. Be sure to have Angular 2+ installed. See angular setting up for help. ```https://angular.io/guide/setup-local```
+2. Clone the fronted repository: ```https://github.com/DanayaPie/DKWTE.git```
+3. Install the **node_modules** by using ```npm install```
 
 <!-- ## Usage
 
